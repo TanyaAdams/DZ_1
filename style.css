@@ -1,0 +1,142 @@
+﻿/* ==========================================================================
+	Global Styles
+==========================================================================*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{ 
+	line-height: 1.5;
+	font-family: 'Tahoma', sans-serif;
+	}
+/* ==========================================================================
+ Typography
+========================================================================== */
+h1{
+	color: black;
+	font-size: 1em;
+	line-height:3em;
+	}
+/* ==========================================================================
+Grid
+========================================================================== */
+.container {
+	padding-top: .3%;
+	padding-bottom: 3%;
+	background: #F0F0EF;
+	}
+.wraper {
+	width: 38.7%;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid #DBD7D2;
+	-webkit-box-shadow: 0px 1px 5px 3px rgba(219,215,210,1);
+		-moz-box-shadow: 0px 1px 5px 3px rgba(219,215,210,1);
+			box-shadow: 0px 1px 5px 3px rgba(219,215,210,1);
+	}
+.content {
+	padding: 5% 10%;
+	}
+/* ==========================================================================
+Content
+========================================================================== */
+.name {
+	text-align: center;
+	}
+.name img {
+	height: 135px;
+	}
+.profession {
+	border-bottom: 1px solid #B5B8B1;
+	padding: 4% 0;
+	}
+ul {
+	padding: 3% 0;
+	list-style-position: inside;
+	}
+li { 
+	line-height: 2em;
+	}
+.phone {
+	margin-bottom:10%;
+	}
+.last {
+	border: none;
+	margin-bottom: 3%;
+	}
+/* ==========================================================================
+Media
+========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 990px){
+	h1 {
+	line-height: 2em;
+	}
+	p {
+	line-height: 2em;
+	font-size: 1em; 
+	}
+	li { 
+	line-height: 1.7em;
+	}
+	.name img {
+	margin-top: 3%;
+	width: 30%;
+	height: auto;
+	}
+	.content {
+	padding: 3% 5%;
+	}
+	.wraper {
+	width: 50%;
+	}
+}
+@media only screen and (min-width: 501px) and (max-width: 767px){
+	h1 {
+	font-size: 1em;
+	line-height: 1.3em;
+	}
+	p {
+	line-height: 1.5em;
+	font-size: 1em; 
+	}
+	.wraper {
+	width: 90%;
+	}
+	.name img {
+	margin-top: 2%;
+	width: 30%;
+	height: auto;
+	}
+	li { 
+	line-height: 1.5em;
+	font-size: 1em;
+	}
+	.phone {
+	margin-bottom:5%;
+	}
+	.last {
+	margin-bottom: 5%;
+	}
+}
+@media only screen and (max-width: 500px){
+	h1 {
+	font-size: 1em;
+	line-height: 1em;
+	}
+	p {
+	line-height: 2.5em;
+	font-size: .7em; 
+	}
+	li { 
+	line-height: 2em;
+	font-size: .7em;
+	}
+	.wraper {
+	width: 90%;
+	}
+	.name img {
+	margin-top: 4%;
+	width: 50%;
+	height: auto;
+	}
+	.phone, .last {
+	margin-bottom:4%;
+	}
+}
